@@ -1,5 +1,5 @@
 # Graph_Link_Prediction
-COMP90051 UniMelb Project1
+
 
 ### Baseline Model
 
