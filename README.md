@@ -9,4 +9,5 @@ In the baseline model, all edges are added into one Graph (in networkx package).
 ### Random Walk
 
 The ramdom walk was implemented via [Graphvite]: (https://github.com/DeepGraphLearning/graphvite) library. 
-[Tutorials]: https://graphvite.io/tutorials
+
+[MIT](https://choosealicense.com/licenses/mit/)
