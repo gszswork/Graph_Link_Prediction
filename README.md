@@ -1,1 +1,1 @@
-# link-prediction-
+# Graph_Link_Prediction
