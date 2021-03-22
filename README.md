@@ -8,4 +8,4 @@ In the baseline model, all edges are added into one Graph (in networkx package).
 
 ### Random Walk
 
-The ramdom walk was implemented via [Graphvite]:https://github.com/DeepGraphLearning/graphvite library. 
+The ramdom walk was implemented via [Graphvite]: https://github.com/DeepGraphLearning/graphvite library. 
