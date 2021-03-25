@@ -12,3 +12,15 @@
 `
     \graphvite_colab.ipynb
 `
+#### PS: To do hyperparameter tunning.
+Free to follow the comments and change the settings in my_config.yml and then run Step3 again (New results will be generated and saved in a new csv file). 
+
+-----------------
+Note: The my_config.yml is configuration of graphvite library. 
+To create a new configuration yml file, run:
+
+```bash
+graphvite new [application ...] [--file f]
+```
+
+More details are in graphvite page.
