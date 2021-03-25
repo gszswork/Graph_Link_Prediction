@@ -12,3 +12,13 @@
 `
     \graphvite_colab.ipynb
 `
+
+Note: The my_config.yml is configuration of graphvite library. 
+
+To create a new configuration yml file, run:
+
+```bash
+graphvite new [application ...] [--file f]
+```
+
+More details are in graphvite page.
