@@ -14,7 +14,7 @@
 `
 
 
-
+-----------------
 Note: The my_config.yml is configuration of graphvite library. 
 To create a new configuration yml file, run:
 
