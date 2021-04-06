@@ -13,7 +13,7 @@ resource:
   # Number of CPU thread per GPU. Default is all CPUs.
   cpu_per_gpu: auto
   # Dimension of the embeddings.
-  dim: 128
+  dim: 32
 
 format:
   # String of delimiter characters. Change it if your node name contains blank character.
@@ -27,7 +27,7 @@ graph:
   # [node 1] [delimiter] [node 2] [delimiter] [weight] [comment]...
   # [comment]...
   # For standard datasets, you can specify them by <[dataset].[split]>.
-  file_name: "data/full.txt"
+  file_name: "data/edges.txt"
   # Symmetrize the graph or not. True is recommended.
   as_undirected: true
   # Normalize the adjacency matrix or not. This may influence the performance a little.
@@ -70,7 +70,7 @@ train:
   # Larger value is needed for sparser graphs.
   augmentation_step: 5
   # Length of each random walk. Default is recommended.
-  random_walk_length: 60
+  random_walk_length: 40
   # Batch size of random walks in samplers. Default is recommended.
   random_walk_batch_size: 100
   # Log every n batches.
@@ -90,6 +90,6 @@ train:
 # Comment out this section if not needed.
 save:
   # Path to save file, can be "*.pkl".
-  file_name: embedding/dim32-len40/line_full.pkl
+  file_name: model/LINE_full.pkl
   # Save hyperparameters or not.
   save_hyperparameter: true
