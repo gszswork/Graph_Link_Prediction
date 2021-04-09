@@ -62,7 +62,7 @@ build:
 
 train:
   # Model, can be DeepWalk, LINE or node2vec.
-  model: LINE
+  model: DeepWalk
   # Number of epochs. Default is usually reasonable for sparse graphs.
   # For dense graphs (|E| / |V| > 100), you may use smaller values.
   num_epoch: 4000
